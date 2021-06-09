@@ -1,0 +1,25 @@
+{
+  "name": "saaspect",
+  "version": "1.0.0",
+  "description": "saaspect assignment for internship",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
+  },
+  "keywords": [
+    "saaspect",
+    "assignment"
+  ],
+  "author": "Rupesh Garhwal <rupeshgarhwal3920@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.12",
+    "morgan": "^1.10.0",
+    "validator": "^13.6.0"
+  }
+}
